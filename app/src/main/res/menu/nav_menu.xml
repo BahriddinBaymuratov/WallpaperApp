@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/homeFragment"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home"/>
+        <item
+            android:id="@+id/popularFragment"
+            android:icon="@drawable/ic_baseline_stars_24"
+            android:title="Popular"/>
+        <item
+            android:id="@+id/randomFragment"
+            android:icon="@drawable/ic_baseline_autorenew_24"
+            android:title="Random"/>
+        <item
+            android:id="@+id/favoriteFragment"
+            android:icon="@drawable/ic_baseline_favorite_border_24"
+            android:title="Favorite"/>
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="History"/>
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="About"/>
+
+    </group>
+</menu>
