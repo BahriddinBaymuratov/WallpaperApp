@@ -143,4 +143,6 @@ class DetailFragment : Fragment() {
         super.onDestroyView()
         _binding = null
     }
+
+
 }
