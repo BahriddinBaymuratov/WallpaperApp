@@ -81,6 +81,7 @@ class DetailFragment : Fragment() {
         }
     }
 
+
     private fun initViews(view: View) {
         // RV DA BOSILGAN ITEMNI RASMINI QABUL QILIB OLISH
         val newImage = arguments?.getParcelable<Image>("image")
